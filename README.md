@@ -2,7 +2,7 @@
 
 <br>
 
-![](bonsai.png)
+![](pics/bonsai.png)
 
 ## About the project
 This project aims to predict the price movements of stock equities using machine learning applied to technical indicators.
@@ -51,7 +51,7 @@ Target Definition
 * RF is very sensitive to imbalance. Adjusting the zscore threshold ensures balanced classes.
 * Yes, weighting would be another way to handle this, but slightly complicates interpretation.
 
-![](bins.png)
+![](pics/bins.png)
 
 ## Results
 
@@ -68,7 +68,7 @@ F1 score: 0.5796825396825396
 ```
 Unsurprisingly, STDEV and the previous range are important for predicting volatility.
 
-![](importance_zscore.png)
+![](pics/importance_zscore.png)
 
 Predicting price movement (up/down) is a difficult task. The model typically exceeds 50% accuracy!
 
@@ -85,9 +85,9 @@ F1 score: 0.6022822154188701
 
 So what features are predictive of direction? Not RSI. What is this HT_quadrature? What is BETA?
 
-![](importance_up_dn.png)
+![](pics/importance_up_dn.png)
 
 # Future directions
 _Quick trip to the library..._
 
-![](lambo.png)
+![](pics/lambo.png)
